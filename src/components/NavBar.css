@@ -1,0 +1,15 @@
+.titleOfDashboard{
+    font-size: xx-large;
+    font-family: cursive;
+    font-weight: 500;
+    color: teal;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+.navOption{
+    font-size: large;
+    font-weight: 500;
+    font-family: cursive;
+    padding-left: 10px;
+    color: teal;
+}
