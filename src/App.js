@@ -3,6 +3,7 @@ import './App.css'
 import MapIndia from './components/MapIndia';
 import CardInfo from './components/CardInfo';
 import NavBar from './components/NavBar';
+import LineChart from './components/LineChart';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="layout1">
         <MapIndia />
       </div>
+      <LineChart />
     </div>
   );
 }

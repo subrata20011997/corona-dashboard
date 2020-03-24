@@ -307,6 +307,7 @@ class MapIndia extends Component {
                 }
             })
             .on('mousemove',function(d){
+                //console.log(this)
                 const coords = d3.mouse(this);
                 //console.log(coords)
                 const x = coords[0] + 125;

@@ -6,13 +6,13 @@ class NavBar extends Component {
     render() {
         return (
             <div>
-                <div class="ui tabular menu">
-                    <a class="item active">
+                <div className="ui tabular menu">
+                    <a className="item active">
                         <div>
                             <span className="titleOfDashboard">COVID -19 '</span><span className="navOption">Impact in India</span>
                         </div>
                     </a>
-                    <a class="item">
+                    <a className="item">
                         <span className="navOption">Impact across the Globe</span>
                     </a>
                 </div>
