@@ -1,21 +1,22 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css'
-import MapIndia from './components/MapIndia';
-import CardInfo from './components/CardInfo';
+import ImpactIndia from './components/ImpactIndia';
 import NavBar from './components/NavBar';
-import LineChart from './components/LineChart';
+import ImpactAcrossGlobe from './components/ImpactAcrossGlobe';
+import { BrowserRouter, Route,Switch} from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <NavBar />
-      <CardInfo />
-      <div className="layout1">
-        <MapIndia />
-      </div>
-      <LineChart />
-    </div>
-  );
+class App extends Component {
+  render(){
+    return (
+      <BrowserRouter>
+        <NavBar />
+        <Switch>
+          <Route path="/" exact component={ImpactIndia} />
+          <Route path="/impactAcrossGlobe" component = {ImpactAcrossGlobe} />
+        </Switch>
+      </BrowserRouter>
+    );
+    }
 }
 
 export default App;

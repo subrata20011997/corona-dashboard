@@ -9,12 +9,12 @@ class CardInfo extends Component {
             data : [
                 {
                     "type": "CONFIRMED CASES",
-                    "count": 365,
+                    "count": 657,
                     "color": '#246ca3'
                 },
                 {
                     "type":"HOSPITALIZED CASES",
-                    "count" : 334,
+                    "count" : 602,
                     "color": '#d48206'
                 },
                 {
@@ -24,12 +24,12 @@ class CardInfo extends Component {
                 },
                 {
                     "type":"RECOVERED CASES",
-                    "count":24,
+                    "count":43,
                     "color": '#1b8c5f'
                 },
                 {
                     "type":"DEATHS",
-                    "count":7,
+                    "count":12,
                     "color": '#7d8a85'
                 }
             ]
@@ -68,27 +68,28 @@ class CardInfo extends Component {
         let svg = d3.select('#info'+id).append('svg')
             .attr('height','120px')
             .attr('width',width)
-            .style('background-color',this.state.data[id].color)
+            .style('background-color','white')
+            .style('border','2px solid '+this.state.data[id].color)
             .style('border-radius','8px')
         svg.append('text')
             .attr("transform","translate("+(10)+","+(20)+")")
             .text('No. of')
             .style('font-size','small')
-            .style('fill','white')
+            .style('fill',this.state.data[id].color)
             .style('font-family','cursive')
         svg.append('text')
             .attr("transform","translate("+(10)+","+(45)+")")
             .text(this.state.data[id].type)
             .style('font-size','large')
             .style('font-weight',600)
-            .style('fill','white')
+            .style('fill',this.state.data[id].color)
             .style('font-family','Cambria, Cochin, Georgia, Times,serif')
         svg.append('text')
             .attr("transform","translate("+(10)+","+(90)+")")
             .text(this.state.data[id].count)
             .style('font-size','xx-large')
             .style('font-weight',600)
-            .style('fill','white')
+            .style('fill',this.state.data[id].color)
             .style('font-family','Cambria, Cochin, Georgia, Times,serif')
     }
 }

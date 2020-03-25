@@ -300,7 +300,7 @@ class MapIndia extends Component {
         let singleUnit = subunits
             .style('fill',function(d,i){
                 if(d.properties.positiveCase >= 1){
-                    console.log(color(d.properties.positiveCase))
+                    //console.log(color(d.properties.positiveCase))
                     return color(d.properties.positiveCase)
                 } else{
                     return "#baafaf"
@@ -525,7 +525,7 @@ class MapIndia extends Component {
         let svgLegend = pieChart.append('g')
             .attr("transform","translate("+(100)+","+(385)+")")
         data.forEach( (element,index) => {
-            console.log(index,element)
+            //console.log(index,element)
             svgLegend.append('circle')
                 .attr('cx', 20)
                 .attr('cy', 20 + index*30)

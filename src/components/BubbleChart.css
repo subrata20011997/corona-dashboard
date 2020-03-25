@@ -1,0 +1,115 @@
+.header{
+    padding:10px;
+    font-size: x-large;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.ChinaGraphCard{
+    display: inline-block;
+    width: 32.5%;
+    margin: 5px;
+    background-color:white;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 8px;
+    height: 250px;
+}
+.ChinaGraphCard:hover{
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.5);
+}
+.USGraphCard{
+    display: inline-block;
+    width: 32.5%;
+    margin: 5px;
+    background-color:white;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 8px;
+    height: 250px;
+}
+.USGraphCard:hover{
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.5);
+}
+
+.UKGraphCard{
+    display: inline-block;
+    width: 32.5%;
+    margin: 5px;
+    background-color:white;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 8px;
+    height: 250px;
+}
+.UKGraphCard:hover{
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.5);
+}
+.ItalyGraphCard{
+    display: inline-block;
+    width: 32.5%;
+    margin: 5px;
+    background-color:white;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 8px;
+    height: 250px;
+}
+.ItalyGraphCard:hover{
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.5);
+}
+
+.FranceGraphCard{
+    display: inline-block;
+    width: 32.5%;
+    margin: 5px;
+    background-color:white;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 8px;
+    height: 250px;
+}
+.FranceGraphCard:hover{
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.5);
+}
+
+.SpainGraphCard{
+    display: inline-block;
+    width: 32.5%;
+    margin: 5px;
+    background-color:white;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 8px;
+    height: 250px;
+}
+.SpainGraphCard:hover{
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.5);
+}
+
+.IranGraphCard{
+    display: inline-block;
+    width: 32.5%;
+    margin: 5px;
+    background-color:white;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 8px;
+    height: 250px;
+}
+.IranGraphCard:hover{
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.5);
+}
+.infoCard{
+    display: inline-block;
+    width: 32.5%;
+    margin: 5px;
+    background-color:white;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 8px;
+    height: 50px;
+}
+.infoCard:hover{
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.5);
+}
